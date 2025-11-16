@@ -1,0 +1,431 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header */
+header h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.2em;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Navigation */
+.navigation {
+    margin: 30px 0;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    font-weight: normal;
+    transition: all 0.3s ease;
+}
+
+.nav-btn.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+    font-weight: bold;
+}
+
+/* Sections */
+.section-box {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.section-box h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    font-size: 1.4em;
+}
+
+/* Group Members */
+.group-members {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+    font-size: 1.1em;
+}
+
+/* Profiles */
+.profiles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.profile-box {
+    background: #ecf0f1;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Devices */
+.devices-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.device-item {
+    padding: 12px 15px;
+    background: #e8f4fc;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+/* Products */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.product-item {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+}
+
+.product-item:hover {
+    border-color: #3498db;
+    background: #f8f9fa;
+}
+
+/* Support Grid */
+.support-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.contact-section, .inquiry-section {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    background: white;
+}
+
+.contact-section h3, .inquiry-section h3 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Leader Info */
+.leader-info {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-left: 4px solid #3498db;
+}
+
+/* Contact Buttons */
+.contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn-contact {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    color: #333;
+    cursor: pointer;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.btn-contact:hover {
+    border-color: #3498db;
+    background: #f8f9fa;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: #95a5a6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-send {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    border-top: 3px solid #ddd;
+    color: #666;
+    font-weight: bold;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.modal-header {
+    border-bottom: 2px solid #ddd;
+    background: #f8f9fa;
+}
+
+.modal-title {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+.modal-footer {
+    border-top: 2px solid #ddd;
+    background: #f8f9fa;
+}
+
+.copyright {
+    text-align: center;
+    color: #666;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Product Specs */
+.product-specs {
+    line-height: 2;
+}
+
+.product-specs div {
+    padding: 5px 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+/* Contact Options */
+.contact-options {
+    margin: 20px 0;
+}
+
+.contact-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.contact-option.checked {
+    background: #e8f4fc;
+    border: 1px solid #3498db;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.checkbox.checked {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+/* Message Details */
+.message-details {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid #3498db;
+}
+
+.message-item {
+    margin: 10px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* WhatsApp Modal */
+.whatsapp-contact {
+    background: #e8f4fc;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border-left: 4px solid #25d366;
+}
+
+.whatsapp-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn-open-app {
+    background: #25d366;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-web {
+    background: #128c7e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-note {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.contact-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+    }
+    
+    .support-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .profiles-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .nav-btn {
+        margin: 5px 0;
+    }
+    
+    .whatsapp-buttons {
+        flex-direction: column;
+    }
+}
